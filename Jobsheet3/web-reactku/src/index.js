@@ -4,27 +4,27 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-//ReactDOM.render(
-//  <React.StrictMode>
-//      <App />
-//  </React.StrictMode>,
-//  document.getElementById('root')
-//);
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
 
 //function HelloComponent(){
 //  return HelloComponent
 //}
 //ReactDOM.render(<HelloComponent />,document.getElementById('root'));
 
-const HelloComponent = () => {
-  return HelloComponent
-}
+//const HelloComponent = () => {
+//  return HelloComponent
+//}
 
-class StateFullComponent extends React.components{
-  render(){
-   return<p>StateFullComponent</p>
- }
-}
-ReactDOM.render(<StateFullComponent />,document.getElementById('root'));
+//class StateFullComponent extends React.components{
+//  render(){
+//   return<p>StateFullComponent</p>
+// }
+//}
+//ReactDOM.render(<StateFullComponent />,document.getElementById('root'));
 
 reportWebVitals();

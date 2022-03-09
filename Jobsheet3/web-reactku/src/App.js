@@ -2,9 +2,11 @@ import logo from './logo.svg';
 import './App.css'; 
 import React, {Component} from 'react';
 import Test from './LifecycleComponent';
+import FormLogin from './formLogin';
 
 function App() {
   return (
+    
     <div class="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -18,6 +20,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <div class="tugas">
+        <FormLogin/>
+      </div>
       <div class="praktikum">
         <Test/>
       </div>
