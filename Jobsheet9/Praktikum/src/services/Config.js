@@ -1,0 +1,1 @@
+export const domainPath = 'https://localhost:3001';
